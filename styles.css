@@ -50,47 +50,29 @@ body {
 
 .img {
     background-image: url("../images/acubalance-new.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin-top: 0;
 }
 
 .img2 {
     background-image: url("../images/acupuncture-new.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin-top: 0;
 }
 
 .img3 {
     background-image: url("../images/biofeedback-new.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin-top: 0;
 }
 
 .img4 {
     background-image: url("../images/about.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin-top: 0;
 }
 
 .img5 {
     background-image: url("../images/contact.jpg");
+}
+
+.img1, .img2, .img3, .img4, .img5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    margin-top: 0;
 }
 
 .img-text {
@@ -914,10 +896,6 @@ img.hover-shadow {
         text-align: center;
     }
     
-    .img, .img2, .img3, .img4, .img5 {
-        margin-top: 0;
-    }
-    
     .title {
         margin-top: 0;
     }
@@ -1048,10 +1026,6 @@ img.hover-shadow {
         text-decoration: none;
         display: block;
         text-align: center;
-    }
-    
-    .img, .img2, .img3, .img4, .img5 {
-        margin-top: 0;
     }
     
     .title {
@@ -1224,10 +1198,6 @@ img.hover-shadow {
         text-decoration: none;
         display: block;
         text-align: center;
-    }
-    
-    .img, .img2, .img3, .img4, .img5 {
-        margin-top: 0;
     }
     
     .img-text {
@@ -1448,10 +1418,6 @@ img.hover-shadow {
         text-decoration: none;
         display: block;
         text-align: center;
-    }
-    
-    .img, .img2, .img3, .img4, .img5 {
-        margin-top: 0;
     }
     
     .img-text {
