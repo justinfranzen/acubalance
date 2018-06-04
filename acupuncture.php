@@ -7,7 +7,7 @@ include 'includes/header.php';
 
 <body>
     
-      <h1 class="img-text">Acupuncture</h1>
+<h1 class="img-text">Acupuncture</h1>
     
 <div class="img2" alt="Acupuncture"></div>
     

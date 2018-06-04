@@ -1,0 +1,1561 @@
+body {
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 125px;
+    padding: 10px 0 15px 0;
+    display: block;
+    position: fixed;
+    z-index: 50;
+    padding-top: 10px;
+    background: transparent;
+    /*background: #d7e2f1;*/
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+.transition {
+    transition-duration: .5s;
+}
+
+#logo-title-section {
+    position: fixed;
+    width: 185px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+#logo-title-section:hover {
+    color: #337ab7;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    display: block;
+}
+
+#logo-title {
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 90px;
+}
+
+.img {
+    background-image: url("../images/acubalance-new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0;
+}
+
+.img2 {
+    background-image: url("../images/acupuncture-new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0;
+}
+
+.img3 {
+    background-image: url("../images/biofeedback-new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0;
+}
+
+.img4 {
+    background-image: url("../images/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0;
+}
+
+.img5 {
+    background-image: url("../images/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0;
+}
+
+.img-text {
+    position: absolute;
+    color: white;
+    font-size: 60px !important;
+    margin-top: 200px;
+    left: 0;
+    right: 0;
+    text-shadow: 0px 0px 15px black;
+}
+
+#wellbeing {
+    display: block;
+    margin: 30px auto -15px auto;
+    width: 250px;
+    max-width: 100%;
+}
+
+#section {
+    position: fixed;
+    margin-top: 135px;
+    width: 100%;
+    background: #95b5dc;
+    font-family: 'Open Sans', sans-serif;
+    height: 60px;
+    display: none;
+}
+
+#mission {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.centered {
+    text-align: center;
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.icon {
+    width: 35px;
+}
+
+#mobile-nav, #myNav, .overlay-content {
+    display: none;
+}
+
+#main-nav {
+    float: right;
+    margin-right: 3%;
+    margin-top: 40px;
+}
+
+#main-nav li {
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+#links {
+    text-align: center;
+    display: inline-flex;
+}
+
+#main-nav li a {
+    color: black;   
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+#main-nav li a:hover {
+    color: cadetblue;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+#main-nav li a:not(:hover) {
+    color: black;
+    transition-duration: .3s;
+}
+
+#main {
+    background: white;
+    margin-top: 145px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+#content {
+    width: 90%;
+    margin: 60px auto 80px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.secondary-content {
+    width: 90%;
+    margin: 80px auto 70px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#bgcolor {
+    background: #eee8f3;
+    padding: 60px 0;
+    margin-bottom: -1px;
+}
+
+.bgcolor-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px !important;
+    margin-bottom: 20px !important;
+}
+
+h4 {
+    margin-top: 25px !important;
+    font-size: 22px !important;
+}
+
+#specialize {
+    margin-left: 20px;
+}
+
+#our-mission {
+    background: #eee8f3;
+    width: 80%;
+    padding: 1px 10px 15px 10px;
+    box-shadow: 0px 5px 15px gray;
+    margin: 25px auto 15px auto;
+}
+
+.mission {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 16px !important;
+    border-left: 5px solid #d7e2f1 !important;
+}
+
+#watch {
+    text-align: center;
+}
+
+#biofeedback {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    width: 350px;
+    max-width: 100%;
+}
+
+#indigo {
+  list-style-type: none;
+}
+
+#indigo li:before {
+  content: '✓';
+    margin-right: 5px;
+}
+
+#indigo li {
+    margin-top: 5px;
+}
+
+#indigo-system {
+    display: block;
+    opacity: 0;
+    width: 400px;
+    max-width: 100%;
+    margin: 50px auto 20px auto;
+}
+
+#health {
+    width: 400px;
+    max-width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 0px auto 30px auto;
+}
+
+.symptom {
+    margin-top: -10px;
+}
+
+#acupuncture {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+}
+
+#back-pain {
+    display: block;
+    margin: 75px auto 40px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#statement {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto 50px auto;
+    max-width: 100%;
+}
+
+#location-iframe {
+    margin: 0 auto 30px auto;
+}
+
+#myForm {
+    width: 450px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: table;   
+}
+
+input {
+    width: 100%;
+    padding-left: 10px !important;
+    padding-left: 5px;
+    border: 2px solid #ccbadc;
+    height: 42px !important;
+    background: #f8f5fa;
+    margin-bottom: 5px !important;
+}
+
+textarea {
+    border: 2px solid #ccbadc;
+    padding-left: 8px;
+    padding-top: 5px;
+    background: #f8f5fa;
+}
+
+.error {
+    color: red;
+    font-family: Arial;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 45px !important;
+    border: 1.5px solid #ccbadc;
+    padding-left: -1px;
+    background: #ccbadc;
+    color: black;
+}
+
+#submit:hover {
+    background: #d7e2f1;
+    transition-duration: .5s;
+    border: 1.5px solid #eee8f3;
+    background: #eee8f3;
+}
+
+#submit:not(:hover) {
+    transition-duration: .5s;
+}
+
+ .thankyou {
+        text-align: center;
+        margin: 150px 0;
+    }
+
+#thankyou {
+    text-align: center;
+    font-size: 26px;
+}
+
+ #redirect {
+        font-size: 20px;
+        color: black;
+        background: #95b5dc;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+#redirect:hover {
+    text-decoration: none;
+}
+
+#footer {
+    background: #d7e2f1;
+    height: 215px;
+    padding-bottom: 25px;
+}
+
+#footer-contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 25px;
+    line-height: 2;
+}
+
+#facebook {
+    display: none;
+}
+
+#contact-info {
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.fa.fa-facebook-square, .fa.fa-twitter, .fa.fa-google-plus {
+        font-size: 40px;
+        color: gray;
+    }
+
+.fa.fa-facebook-square:hover {
+        color: #3B5998;
+        transition: .5s;
+}
+
+.fa.fa-facebook-square:not(:hover) {
+        color: gray;
+        transition: .5s;
+}
+
+.fa.fa-twitter, .fa.fa-google-plus {
+    margin-left: 15px;
+}
+
+.fa.fa-twitter:hover {
+    color: #0084b4;
+    transition: .5s;
+}
+
+.fa.fa-twitter:not(:hover) {
+        color: gray;
+        transition: .5s;
+}
+
+.fa.fa-google-plus:hover {
+    color: #d34836;
+    transition: .5s;
+}
+
+.fa.fa-google-plus:not(:hover) {
+        color: gray;
+        transition: .5s;
+}
+
+.glyphicon {
+        margin-right: 5px;
+        color: black;
+        font-size: 14px;
+    }
+
+.email, .phone {
+    color: black;
+}
+
+.email:hover, .phone:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.email-footer, .phone-footer {
+    color: black;
+}
+
+.footer-email, .footer-phone {
+    color: black;
+}
+
+.footer-email:hover, .footer-phone:hover {
+    color: 0099CC;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+.footer-email:not(:hover), .footer-phone:not(:hover) {
+    transition-duration: .3s;
+}
+
+.copyright {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+/*-----------------------------------------*/
+/*--------PHOTOGALLERY--------------------*/
+/*-----------------------------------------*/
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  max-width: 90%;
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  line-height: 1;
+  color: white !important;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1.2 !important;
+    margin-right: 30px !important;
+    margin-top: -70px !important;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+    color: red;
+    text-decoration: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: red;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+    width: 200px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.hover-shadow.thumbnail {
+    width: 250px;
+    max-width: 100%;
+}
+
+/*------------------------------------*/
+
+
+
+@media only screen and (min-width: 1076px) and (max-width: 1200px) {
+  
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+    
+    .icon {
+        width: 35px;
+    }
+
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    .dropdown {
+        display: none;
+        margin-right: 5%;
+        margin-top: 50px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 142px;
+        z-index: 1;
+        height: auto;
+        left: 0;
+        right: 0;
+        padding-top: 3px;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+        font-size: 18px;
+    }
+
+
+    .dropdown-content a:hover, .dropdown-content:focus  {
+        color: cadetblue;
+        transition-duration: .3s;
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+
+
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    #main {
+        margin-top: 140px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1075px) {
+    
+/*--------Mobile Dropdown----------*/
+    
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: block;
+        margin-right: 5%;
+        margin-top: 50px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 142px;
+        z-index: 1;
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content a:hover, .dropdown-content:focus  {
+        color: cadetblue; 
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    
+/*-------Main Navigation----------*/
+    
+      #main-nav {
+        display: none;
+        }
+    
+    #logo-section-title {
+        width: 113px;
+    }
+
+    #main {
+        margin-top: 140px;
+    }
+    
+    #facebook {
+        display: none;
+    }  
+    
+    #contact-info {
+        margin-right: 0;
+    }
+    
+    #mission {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .acupuncture, .biofeedback {
+        width: 45% !important;
+    }
+    
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    
+     #main-nav {
+        display: none;
+        }
+    
+    .icon {
+        width: 35px;
+    }
+    
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: block;
+        margin-right: 5%;
+        margin-top: 50px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 142px;
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content a:hover, .dropdown-content:focus  {
+        color: cadetblue;
+        transition-duration: .3s;
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .img, .img2, .img3, .img4, .img5 {
+        margin-top: 0;
+    }
+    
+    .title {
+        margin-top: 0;
+    }
+    
+    #section {
+        display: none;
+    }
+    
+    #main {
+        margin-top: 160px;
+        padding-top: 20px;
+    }
+    
+    #myForm {
+        margin-top: 20px;
+    }
+    
+    #biofeedback {
+        margin: 20px auto;
+    }
+    
+    #content {
+        margin-top: 25px;
+    }
+    
+    #footer {
+        background: #d7e2f1;
+        height: 215px;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding-top: 25px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        display: none;
+    }  
+    
+    #contact-info {
+        margin-right: 0;
+    }
+    
+    #contact-info {
+        width: auto;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+    #main-nav {
+        display: none;
+        }
+    
+    .icon {
+        width: 35px;
+    }
+    
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: block;
+        margin-right: 5%;
+        margin-top: 50px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 142px;
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content a:hover, .dropdown-content:focus  {
+        color: cadetblue;
+        transition-duration: .3s;
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .img, .img2, .img3, .img4, .img5 {
+        margin-top: 0;
+    }
+    
+    .title {
+        margin-top: 0;
+    }
+    
+    #section {
+        display: none;
+    }
+    
+    #main {
+        margin-top: 160px;
+        padding-top: 15px; 
+    }
+    
+    #content {
+        margin-top: 15px;
+    }
+    
+    #myForm {
+        margin-top: 20px;
+    }
+    
+    #biofeedback {
+        margin: 20px auto;
+    }
+    
+    #indigo {
+        list-style-type: none;
+        margin-left: -30px;
+        padding: 0 20px 0 50px;
+    }
+    
+    #acupuncture {
+        margin: 20px auto;
+    }
+    
+    #footer {
+        background: #d7e2f1;
+        height: 215px;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding-top: 25px; 
+        line-height: 2;
+    }
+    
+    #facebook {
+        display: none;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    .copyright {
+        line-height: 1.3;
+        margin: 20px 20px 0 20px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        top: 142px;
+        height: 175px;
+        left: 0;
+        right: 0;
+        overflow-x: scroll;
+    }
+    
+}
+
+
+    
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+   #main-nav {
+        display: none;
+        }
+    
+    #header {
+        height: 120px;
+    }
+    
+    .icon {
+        width: 35px;
+    }
+    
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 0px;
+        }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        display: block;
+        margin-right: 5%;
+        margin-top: 40px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 117px;
+        height: auto;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content a:hover, .dropdown-content:focus  {
+        color: cadetblue; 
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .img, .img2, .img3, .img4, .img5 {
+        margin-top: 0;
+    }
+    
+    .img-text {
+        font-size: 50px !important;
+    }
+    
+    .title {
+        margin-top: 0;
+    }
+    
+    #section {
+        display: none;
+    }
+
+    #logo-title-section {
+        height: 90px;
+        width: 169px;
+        margin-top: 5px;
+    }
+    
+    #logo {
+        width: 60px;
+    }
+    
+    #logo-title {
+        font-size: 22px;
+    }
+    
+    #main {
+        margin-top: 130px;
+        padding-top: 10px;
+    }
+    
+    #content {
+        margin-top: 15px;
+        margin-bottom: 75px;
+    }
+
+.secondary-content {
+    width: 90%;
+    margin: 45px auto 45px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#bgcolor {
+    background: #eee8f3;
+    padding: 30px 0;
+    margin-bottom: -1px;
+}
+
+    #myForm {
+        margin-top: 20px;
+    }
+    
+    #biofeedback {
+        margin: 20px auto;
+    }
+    
+    #indigo {
+        list-style-type: none;
+        margin-left: -30px;
+        padding: 0 20px 0 50px;
+    }
+    
+    #indigo-system {
+        margin: 30px auto 20px auto;
+    }
+    
+    #acupuncture {
+        margin: 20px auto;
+    }
+    
+    #back-pain {
+        margin: 75px auto 0px auto;
+    }
+    
+    #footer {
+        background: #d7e2f1;
+        height: 215px;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding-top: 25px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        display: none;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    .copyright {
+        line-height: 1.3;
+        margin: 20px 20px 0 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        margin-left: auto;
+        top: 117px;
+        height: 200px;
+        left: 0;
+        right: 0;
+        overflow-x: scroll;
+    }
+    
+}
+
+@media only screen and (min-width: 100px) and (max-width: 375px) {
+    
+    
+     #main-nav {
+        display: none;
+        }
+    
+    #header {
+        height: 115px;
+    }
+    
+    #logo-title-section {
+        height: 90px;
+        margin-top: 12px;
+        width: 139px;
+    }
+    
+    #logo {
+        width: 55px;
+    }
+    
+    #logo-title {
+        font-size: 18px;
+    }  
+    
+    .icon {
+        width: 35px;
+    }
+    
+    .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            margin-top: 0px;
+        }
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    .dropdown {
+        display: block;
+        margin-right: 5%;
+        margin-top: 40px;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        list-style-type: none;
+        position: fixed;
+        background-color: #d7e2f1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        top: 112px;
+        height: auto;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+    }
+    
+    .dropdown-content ul {
+        margin-bottom: 0;
+        display: block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .dropdown-content li a {
+    }
+
+    .dropdown-content a:hover, .dropdown-content:focus {
+        color: cadetblue;
+        transition-duration: .3s; 
+        text-decoration: none; 
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 13px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .img, .img2, .img3, .img4, .img5 {
+        margin-top: 0;
+    }
+    
+    .img-text {
+        font-size: 45px !important;
+    }
+    
+    .title {
+        margin-top: 0;
+    }
+    
+    #section {
+        display: none;
+    }
+    
+    #logo {
+        width: 55px;
+    }
+
+    #main {
+        margin-top: 120px;
+    }
+    
+    #content {
+        margin-top: 15px;
+        margin-bottom: 75px;
+        width: 85%;
+    }
+    
+.secondary-content {
+    width: 90%;
+    margin: 45px auto 45px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+#bgcolor {
+    background: #eee8f3;
+    padding: 30px 0;
+    margin-bottom: -1px;
+}
+    
+    #myForm {
+        margin-top: 20px;
+    }
+    
+    #biofeedback {
+        margin: 20px auto;
+    }
+    
+    #indigo {
+        list-style-type: none;
+        margin-left: -30px;
+        padding: 0 20px 0 50px;
+    }
+    
+    #indigo-system {
+        margin: 30px auto 30px auto;
+    }
+    
+    #back-pain {
+        margin: 75px auto 0px auto;
+    }
+    
+    #acupuncture {
+        margin: 20px auto;
+    }
+    
+    #footer {
+        background: #d7e2f1;
+        height: 215px;
+        padding-bottom: 30px;
+    }
+    
+    #footer-contact-info {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-top: 25px;
+        line-height: 2;
+    }
+    
+    #facebook {
+        display: none;
+    }
+    
+    #contact-info {
+        width: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        float: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    .copyright {
+        line-height: 1.3;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+
+

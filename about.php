@@ -7,11 +7,11 @@ include 'includes/header.php';
 
 <body>
     
-<div id="main">
+<h1 class="img-text">About</h1>
+    
+<div class="img4" alt="About"></div>
     
     <div id="content">
-    
-        <h1 class="title">About Us</h1>
         
         <div id="our-mission">
         
@@ -70,7 +70,6 @@ include 'includes/header.php';
         
     </div>
     
-</div>
 </body>
     
 <?php

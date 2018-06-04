@@ -74,11 +74,11 @@ if (isset($_POST['submitted'])){
 
 <body>
     
-<div id="main">
+<h1 class="img-text">Contact</h1>
+    
+<div class="img5" alt="Contact Us"></div>
     
     <div id="content">
-    
-        <h1 class="title">Contact Us</h1>
         
         <br>
         
@@ -139,7 +139,6 @@ if (isset($_POST['submitted'])){
 
     </div>
     
-</div>
 </body>
     
 <?php
